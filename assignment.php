@@ -20,3 +20,5 @@ $inv->addTitle("My First Invoice");
 $inv->addItem("Item 1", 100);
 $inv->addItem("Item 2", 200);
 $inv->addTotal();
+$inv->createInvoice();
+
